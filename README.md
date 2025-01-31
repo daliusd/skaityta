@@ -36,3 +36,9 @@ Run:
 ```sh
 docker run -p 3000:3000 -v ~/projects/skaityta-data:/data -e DATA_PATH=/data skaityta
 ```
+
+## Kamal
+
+`kamal deploy`
+
+Pastaba: darau prielaidą, kad žinote, ką darote ಠ‿↼

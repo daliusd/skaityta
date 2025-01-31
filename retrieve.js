@@ -45,7 +45,6 @@ const TEMPLATE = `<!DOCTYPE html>
       <div class="buttons">
         <a href="/" class="button">Pagrindinis</a>
         <a href="http://feeds.feedburner.com/Skaityta" class="button">Prenumerata</a>
-        <a href="http://feedburner.google.com/fb/a/mailverify?uri=Skaityta&amp;amp;loc=en_US" class="button">Prenumerata el. paštu</a>
         <a href="/apie.html" class="button">Apie / Archyvas</a>
       </div>
       <div id="entries">

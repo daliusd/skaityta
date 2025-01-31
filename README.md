@@ -8,7 +8,7 @@ parašytas python'u, bet dabar perrašiau į javascript'ą.
 Naudokite `retrieve.js` skriptą:
 
 ```
-DATA_PATH=~/projects/skaityta/data/ node retrieve.js
+DATA_PATH=~/projects/skaityta-data/ node retrieve.js
 ```
 
 Prieš tai sukurkite `entries.json` su minimaliu turiniu, jei neturite duomenų:

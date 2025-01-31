@@ -7,5 +7,6 @@ RUN yarn workspaces focus --production
 
 FROM base AS production
 COPY . .
+COPY config/crontab .
 EXPOSE 3000
 CMD ["node", "index.js"]

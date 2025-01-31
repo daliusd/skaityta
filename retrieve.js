@@ -174,6 +174,7 @@ async function main() {
   const data = JSON.parse(fs.readFileSync(path.join(data_path, 'entries.json'), 'utf-8'));
 
   for (const blog of BLOGS) {
+    console.log(`Processing ${blog.url}`);
     await processBlog(blog.url, data);
   }
 

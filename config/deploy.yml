@@ -5,10 +5,15 @@ image: daliusd1982/skaityta
 servers:
   web:
     - 195.201.143.78
+  cron:
+    hosts:
+      - 195.201.143.78
+    cmd: sh -c "(env && cat crontab) | crontab - && crond -f"
 
 proxy:
   ssl: true
   hosts:
+    - skaityta.ffff.lt
     - skaityta.lt
     - www.skaityta.lt
   app_port: 3000
@@ -26,9 +31,5 @@ env:
   clear:
     DATA_PATH: /data
 
-accessories:
-  data:
-    roles:
-      - web
-    directories:
-      data:/data
+volumes:
+  - /storage/skaityta-data:/data

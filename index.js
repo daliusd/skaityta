@@ -31,3 +31,17 @@ const start = async () => {
 };
 
 start();
+
+process.on('SIGINT', () => {
+  console.log('\nGracefully shutting down from SIGINT (Ctrl-C)');
+  fastify
+    .close()
+    .then(() => {
+      console.log('Server closed');
+      process.exit(0);
+    })
+    .catch((err) => {
+      console.error('Error closing server', err);
+      process.exit(1);
+    });
+});

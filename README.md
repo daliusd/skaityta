@@ -20,5 +20,19 @@ Prieš tai sukurkite `entries.json` su minimaliu turiniu, jei neturite duomenų:
 # Serveris
 
 ```
-DATA_PATH=~/projects/skaityta/data/ node index.js
+DATA_PATH=~/projects/skaityta-data/ node index.js
+```
+
+## Docker
+
+Build:
+
+```sh
+docker build -t skaityta .
+```
+
+Run:
+
+```sh
+docker run -p 3000:3000 -v ~/projects/skaityta-data:/data -e DATA_PATH=/data skaityta
 ```

@@ -51,7 +51,7 @@ const TEMPLATE = `<!DOCTYPE html>
         {0}
         {1}
       </div>
-      <p>Skaityta.lt (&copy;) 2001-2020. Visos teisės saugomos. Platinti puslapyje publikuojamas apžvalgas be skaityta.lt ir/arba autorių sutikimo NEETIŠKA IR NETEISĖTA. Dėl medžiagos panaudojimo rašykite el.paštu <a href="mailto:skaityta@skaityta.lt">skaityta@skaityta.lt</a>.</p>
+      <p>Skaityta.lt (&copy;) 2001-2025. Visos teisės saugomos. Platinti puslapyje publikuojamas apžvalgas be skaityta.lt ir/arba autorių sutikimo NEETIŠKA IR NETEISĖTA. Dėl medžiagos panaudojimo rašykite el.paštu <a href="mailto:skaityta@skaityta.lt">skaityta@skaityta.lt</a>.</p>
     </div>
   </body>
 </html>`;
